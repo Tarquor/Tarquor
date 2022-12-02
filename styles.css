@@ -24,6 +24,7 @@ body{
    
 }
 #myVideo{
+  opacity: 0;
     width: 900px;
     /* margin-left: 300px; */
     /* margin-left: -500px; */

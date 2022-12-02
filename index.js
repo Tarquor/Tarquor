@@ -33,6 +33,7 @@ const eng = async () => {
   } else {
     vid.style.marginLeft = "-500px";
   }
+  vid.style.opacity = "1";
   playVid();
   await delay(1900);
   english.style.backgroundColor = "rgba(0, 247, 255, 0.5)";
@@ -53,7 +54,7 @@ const pl = async () => {
   } else {
     vid.style.marginLeft = "300px";
   }
-
+  vid.style.opacity = "1";
   playVid();
   await delay(1900);
   polish.style.backgroundColor = "rgba(0, 247, 255, 0.5)";
